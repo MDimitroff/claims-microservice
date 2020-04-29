@@ -48,11 +48,5 @@ namespace Claims.Controllers
 
             return Ok("Got it!");
         }
-
-        [HttpGet]
-        public ActionResult<string> Get()
-        {
-            return Ok("It works");
-        }
     }
 }
